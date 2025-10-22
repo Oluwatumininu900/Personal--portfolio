@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import AuthModal from "./AuthModal";
-import "./MiniShop.css";
+import "./Minishop.css";
 
-const MiniShop = () => {
+const Minishop = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [cart, setCart] = useState([]);
@@ -95,4 +95,4 @@ const MiniShop = () => {
   );
 };
 
-export default MiniShop;
+export default Minishop;

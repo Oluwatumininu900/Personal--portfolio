@@ -12,7 +12,7 @@ import FormulaFinder from "./component/FormulaFinder";
 import ToDoList from './component/ToDoList';
 import Timer from './component/Timer';
 import Quize from './component/Quize';
-import MiniShop from "./component/MiniShop";
+import Minishop from "./component/Minishop";
 import CV from "./component/CV";
 
 function App() {
@@ -51,7 +51,7 @@ function App() {
           <Route path="/todolist" element={<ToDoList />} />
           <Route path="/timer" element={<Timer />} />
           <Route path="/quize" element={<Quize />} />
-          <Route path="/minishop" element={<MiniShop />} />
+          <Route path="/minishop" element={<Minishop />} />
           <Route path="/cv" element={<CV />} />
         </Routes>
 
