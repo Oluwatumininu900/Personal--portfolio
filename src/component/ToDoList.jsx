@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./TodoList.css"; // ✅ linked CSS file
+import "./ToDoList.css"; // ✅ linked CSS file
 
 const TodoList = () => {
   const [tasks, setTasks] = useState(["Pray", "Eat", "Code"]);
