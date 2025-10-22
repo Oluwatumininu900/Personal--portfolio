@@ -1,7 +1,0 @@
-now see the trick 1st i did this look at the commented code i wan to use it inplce of the first one i wat it to direct to the contact us page in the contact us section<a className="btn-primary" href={`mailto:${contact.email}`}>Email Me</a>
-          {/* <Link to="/contact" className="cal-1"><button className="btn-primary">Email Me</button></Link> */} 
-
-i now went to app.jsx and did this again <Contacts />
-                {/* <Route path="/contact" element={<Contacts/>}  /> */} 
-
-                
