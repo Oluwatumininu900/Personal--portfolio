@@ -1,0 +1,188 @@
+.calculator {
+  background: #222;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.display {
+  background: #000;
+  color: #0ff;
+  font-size: 2.5rem;
+  text-align: right;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background: #444;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.3rem;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #666;
+}
+/* === Calculator Body === */
+.calc-body {
+  min-height: 100vh;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+/* === Main Calculator Box === */
+.calc-container {
+  width: 100%;
+  max-width: 340px;
+  background: #1e1e1e;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.calc-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #a07aff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* === Display === */
+.calc-display {
+  background: #000;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: right;
+  margin-bottom: 15px;
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.calc-prev {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.calc-current {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 300;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* === Buttons Grid === */
+.calc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* === Buttons === */
+.btn {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.btn.number,
+.btn.decimal {
+  background: #333;
+  color: white;
+}
+
+.btn.number:hover,
+.btn.decimal:hover {
+  background: #444;
+}
+
+.btn.operator,
+.btn.function,
+.btn.sign {
+  background: #7c4dff;
+  color: white;
+}
+
+.btn.operator:hover,
+.btn.function:hover,
+.btn.sign:hover {
+  background: #9065ff;
+}
+
+.btn.clear,
+.btn.delete {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn.clear:hover,
+.btn.delete:hover {
+  background: #ff6b5a;
+}
+
+.btn.equal {
+  background: #1abc9c;
+  color: white;
+}
+
+.btn.equal:hover {
+  background: #1fd5b3;
+}
+
+/* === Footer === */
+.calc-footer {
+  text-align: center;
+  margin-top: 10px;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+
+
+
+.glass-btn {
+  background: rgba(128, 0, 128, 0.2); /* light purple transparency */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin: 90px;
+}
+
+.glass-btn:hover {
+  background: rgba(128, 0, 128, 0.4);
+  transform: translateY(-3px);
+  color: white;
+}
+
+
+::selection {
+background-color: #c39ce0;
+color:white;
+}
