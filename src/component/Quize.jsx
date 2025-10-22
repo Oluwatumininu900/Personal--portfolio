@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import "./quize.css";
+import "./Quize.css";
 
 // --- Quiz Data ---
 const quizData = { /* ... keep all your questions as-is ... */ };
